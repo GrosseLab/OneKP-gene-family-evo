@@ -1,0 +1,196 @@
+# Samples thought to contain more than one species
+NWQC
+CHJJ
+RXRQ
+AEKF
+IQJU
+BMZI
+UXCS
+PGKL
+
+## A number of samples have noticeably odd locations in the capstone test MAFFT tree produced by Siavash. These are:
+LVNW
+WPYJ
+DYFF
+XMQO
+JLLY
+CYVA
+QJXB
+FWBF
+FONV
+NPND
+ULGV
+JBGU
+YMES
+JBLI
+FITN
+NIJU
+UZNH
+IQJU
+FANS
+
+## Unconfirmed Source (No Worrisome Contamination)
+# IRBN
+# YZGX
+# TFDQ
+# HTDC
+# AEXY
+# TMAJ
+# QGLJ
+# UHJR
+# QAIR
+
+## No Family-level Reference Sequence in Database
+AZBL
+OQHZ
+BNTL
+YQEC
+PNZO
+EWXK
+CWLL
+YJJY
+OQON
+EGNB
+GAKQ
+PQED
+OCZL
+COBX
+HTFH
+TAVP
+OFTV
+AJAU
+VHIJ
+VJDZ
+POOW
+YGAT
+HYZL
+
+## No SSU rRNA Sequence Found in Assembly
+SHEZ
+WWSS
+JVBR
+ZYAX
+PAWA
+XSZI
+HSXO
+
+## Unconfirmed Source & Worrisome Contamination
+XXHP
+TJES
+HEGQ
+RXEN
+XONJ
+DCCI
+EZXQ
+YOWV
+RICC
+NIJU
+QZZU
+LVNW
+EDXZ
+MBQU
+KUXM
+IQJU
+QSKP
+ZYCD
+UZNH
+HNDZ
+JDQB
+RTTY
+RNBN
+FITN
+UPZX
+SKNL
+PKMO
+OLES
+GIWN
+RUUB
+CWZU
+ZFGK
+FAKD
+CTYH
+JBGU
+OTAN
+FANS
+VWIP
+HUSX
+PVGM
+FIDQ
+KVAY
+QJXB
+JPDJ
+ZLOA
+NLOM
+LWDA
+YXNR
+VBMM
+LKKX
+EBWI
+ULGV
+TJLC
+HELY
+QTJY
+LHLE
+OKEF
+OBTI
+
+## Worrisome Contamination (Source Confirmed)
+MLPX
+IAYV
+LJPN
+LJQF
+PWKQ
+VKVG
+GTSV
+AZZW
+LSKK
+OJCW
+UKUC
+JGGD
+BXBF
+NBYP
+VZWX
+ZZEI
+RFAD
+RTMU
+ULKT
+BZSH
+LXRN
+FOYQ
+WZFE
+XAXW
+MWAN
+IEHF
+XKWQ
+QHVS
+WEJN
+VNAL
+BAKF
+RKGT
+UGPM
+IIFB
+FZQN
+IFCJ
+IOVS
+KRUQ
+HVBQ
+LACT
+PTBJ
+NMAK
+BAJW
+YBQN
+
+## Status Changed After Manual Review
+LETF
+GJIY
+EEJO
+WDCW
+MFYC
+CYVA
+PZIF
+
+## Manually Confirmed Problems
+NLOM
+GDUD
+WGMD
+OVHR
