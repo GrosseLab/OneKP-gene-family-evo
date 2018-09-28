@@ -1,2 +1,4 @@
 plots
-results
+results/mlgf_on_OneKP_prot_cdhit99
+results/Pfam-A_noStrepto_on_OneKP_prot_cdhit99
+results/mlgf_on_refs

@@ -13,11 +13,11 @@ completeness<-NULL
 # BEGIN: uncomment desired study
 ################################
 
-# # study 1: large gene families on OneKP data set
-# case_id<-"mlgf_on_OneKP_prot_cdhit99"
-# seq_to_species_function <- function(s){return(substr(s, 1, 4))}
-# # relative<-"data/sequence_counts_prot_cdhit_99.txt"
-# completeness<-"data/CEGMA_BUSCO_100-missing.tsv"
+# study 1: large gene families on OneKP data set
+case_id<-"mlgf_on_OneKP_prot_cdhit99"
+seq_to_species_function <- function(s){return(substr(s, 1, 4))}
+# relative<-"data/sequence_counts_prot_cdhit_99.txt"
+completeness<-"data/CEGMA_BUSCO_100-missing.tsv"
 
 # # study 2: large gene families on reference genomes
 # case_id<-"mlgf_on_refs"
@@ -31,11 +31,11 @@ completeness<-NULL
 # }
 # # relative<-"sequence_counts_refs.txt"
 
-# study 3: Subset of Pfam-A HMMs used in this study with sequences from all streptophytes removed on OneKP data set
-case_id<-"Pfam-A_noStrepto_on_OneKP_prot_cdhit99"
-seq_to_species_function <- function(s){return(substr(s, 1, 4))}
-# relative<-"data/sequence_counts_prot_cdhit_99.txt"
-completeness<-"data/CEGMA_BUSCO_100-missing.tsv"
+# # study 3: Subset of Pfam-A HMMs used in this study with sequences from all streptophytes removed on OneKP data set
+# case_id<-"Pfam-A_noStrepto_on_OneKP_prot_cdhit99"
+# seq_to_species_function <- function(s){return(substr(s, 1, 4))}
+# # relative<-"data/sequence_counts_prot_cdhit_99.txt"
+# completeness<-"data/CEGMA_BUSCO_100-missing.tsv"
 
 ################################
 # END: uncomment desired study
@@ -47,7 +47,7 @@ if (!is.null(relative)) {
 }
 
 # data
-hmmer_raw<-as.data.table(read.table(paste0("results/hmmsearch/hmmsearch_" , case_id, ".txt"), fill=T, flush=T))
+hmmer_raw<-as.data.table(read.table(paste0("results/hmmsearch/hmmsearch_" , case_id, ".txt.gz"), fill=T, flush=T))
 setnames(hmmer_raw, c(1, 5, 3), c("subject", "score", "query"))
 setkey(hmmer_raw, query, subject, score)
 
