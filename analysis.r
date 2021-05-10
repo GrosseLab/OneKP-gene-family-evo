@@ -403,7 +403,7 @@ write.csv(tmp, file=paste0("results/", dir, "/sample_count_table.csv"))
 write.table(tmp, file=paste0("results/", dir, "/sample_count_table.tsv"), sep="\t")
 
 ## plotting
-dir.create(paste0("plots/", dir))
+dir.create(paste0("plots/", dir), recursive = T)
 pdf(paste0("plots/", dir, "/full dendrogram.pdf"), width=200, height=28)
 	edge.color<-apply(tree$edge, 1, function(x){
 		if(length(table(clade_dictionary[tips(tree, x[2])])) == 1) {
@@ -440,7 +440,7 @@ if (!is.null(completeness)) {
 
 dir.create(paste0("plots/", dir, "/KS-test_sigFC/"))
 fam<-"all_gene_families"
-pdf(paste0("plots/", dir, "/KS-test/", fam, ".pdf"), 183/25.4, 150/25.4)
+pdf(paste0("plots/", dir, "/KS-test_sigFC/", fam, ".pdf"), 183/25.4, 150/25.4)
 plot_tree_hist(tree, meta_sample_counts[fam,], main=paste0("Weighted Mean of Size from ", dim(sample_counts)[1] , " Gene Families"), ylab="", legend=NA, bars="folded", mark_exp="none")
 dev.off()
 
